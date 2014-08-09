@@ -1,0 +1,133 @@
+#wrapper{
+
+width:1024px;
+height:500px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.skills{
+clear: both;
+height: 200px;
+width: 100%;
+margin-bottom: 5px;
+display: block;  
+}
+
+
+.skills  .column1{
+float: left;
+width:25%;
+height:200px;
+background:#0cf;
+ -webkit-transition: 1s ease-in-out; 
+-moz-transition: 1s ease-in-out; 
+-o-transition: 1s ease-in-out; 
+transition: 0.5s ease-in-out;
+overflow: hidden;
+}
+
+.skills .column2{
+float: left;
+width:25%;
+height:200px;
+background: #a29d9d;
+ -webkit-transition: 1s ease-in-out; 
+-moz-transition: 1s ease-in-out; 
+-o-transition: 1s ease-in-out; 
+transition: 0.5s ease-in-out; 
+    
+}
+
+.skills .column3{
+float: left;
+width:25%;
+height:200px;
+background: #f00;
+ -webkit-transition: 1s ease-in-out; 
+-moz-transition: 1s ease-in-out; 
+-o-transition: 1s ease-in-out; 
+transition: 0.5s ease-in-out;  
+    
+}
+
+.skills .column4{
+float: left;
+width:25%;
+height:200px;
+background: #1dff00;
+  -webkit-transition: 1s ease-in-out; 
+-moz-transition: 1s ease-in-out; 
+-o-transition: 1s ease-in-out; 
+transition: 0.5s ease-in-out;
+    
+}
+
+.skills .column1:hover,.column2:hover,.column3:hover,.column4:hover{
+ height:400px;
+margin-bottom: 5px;
+
+}
+
+.column1 img, .column2 img, .column3 img, .column4 img{
+   margin-top:15px; 
+   margin-left: 70px;
+margin-right:70px;
+}
+
+#webdesign, #webdesign1 h1{
+ text-align: center;   
+    
+}
+
+.column1, .column2, .column3, .column4{
+
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
